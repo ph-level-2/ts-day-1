@@ -29,3 +29,7 @@ let ObjDestructure: {
 };
 
 const { name2 } = ObjDestructure;
+
+// type alias
+type aliasType = (value: number) => number;
+const aliasValue = (value: number): number => value;

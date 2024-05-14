@@ -35,3 +35,25 @@ enum Level {
 	one = 'one',
 	two = 'two',
 }
+
+type third = {
+	name: string;
+	age: number;
+};
+
+type four = third & {
+	from: string;
+	company: string;
+};
+
+const uData: four = {
+	age: 23,
+	name: 'String',
+	company: 'sdf',
+	from: 'sdf',
+};
+
+// enum type
+enum m2 {
+	one = 'one',
+}
